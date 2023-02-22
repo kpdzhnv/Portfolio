@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="styles/style.css" />
-  </head>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
   <body>
     <!--[if lt IE 7]>
       <p class="browsehappy">
@@ -101,28 +100,31 @@
           <h2>My <span>Projects</span></h2>
         </div>
         <p class="port-text">
-          Here is some of my work that I've done in various programming
-          languages.
+          Here are some of projects I worked on.<br>
+          <span class="port-text-additional">(hover to see the links)</span>
         </p>
         
         <div class="portfolios">
           <div class="portfolio-item">
-            <div class="image">
-              <img src="img/port1.jpg" alt="" />
-            </div>
-            <div class="hover-items">
-              <h3>Project Source</h3>
-              <div class="icons">
-                <a href="#" class="icon">
-                  <i class="fab fa-github"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-behance"></i>
-                </a>
-                <a href="#" class="icon">
-                  <i class="fab fa-youtube"></i>
-                </a>
+            <div class="portfolio-image">
+              <img src="images/port1.jpg" alt="" />
+              <div class="hover-items">
+                <h3>Project Source & Demo</h3>
+                <div class="icons">
+                  <a href="https://github.com/kpdzhnv/Frozen-Dragon" class="icon">
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <a href="https://simmer.io/@kpdzhnv/frozen-dragon" class="icon">
+                    <i class="fa-regular fa-play"></i>
+                  </a>
+                </div>
               </div>
+            </div>
+            
+            <div class="info">
+              <p class="title">Frozen Dragon</p>
+                <p class="text">The most recent project I worked on. A game made for LD Game Jam.</p>
+                <p class="roles">Roles: Unity Developer, Pixel Artist.</p>
             </div>
           </div>
           <div class="portfolio-item">
@@ -295,27 +297,22 @@
       </section>
     </main>
 
-    <!-- <div class="controls">
+    <div class="controls">
       <div class="control active-btn" data-id="home">
-        <i class="fas fa-home"></i>
+        <a href="#home"><i class="fas fa-home"></i></a>
       </div>
       <div class="control" data-id="about">
-        <i class="fas fa-user"></i>
+        <a href="#about"><i class="fas fa-user"></i></a>
       </div>
       <div class="control" data-id="portfolio">
-        <i class="fas fa-briefcase"></i>
-      </div>
-      <div class="control" data-id="blogs">
-        <i class="far fa-newspaper"></i>
+        <a href="#portfolio"><i class="fas fa-briefcase"></i></a>
       </div>
       <div class="control" data-id="contact">
-        <i class="fas fa-envelope-open"></i>
+        <a href="#contact"><i class="fas fa-envelope-open"></i></a>
       </div>
     </div> -->
-    <!-- <div class="theme-btn">
+    <div class="theme-btn">
       <i class="fas fa-adjust"></i>
-    </div> -->
-    <!-- <script src="app.js"></script> -->
-    <script src="" async defer></script>
+    </div>
   </body>
 </html>
